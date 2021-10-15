@@ -1,7 +1,6 @@
 from enum import Enum
 
-@Enum
-class JVMOpcodes:
+class JVMOpcodes(Enum):
     aaload = 0x32
     aastore = 0x53
     aconst_null = 0x1
