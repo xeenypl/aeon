@@ -196,7 +196,7 @@ class JVMOpcodes(Enum):
     putfield = 181 
     putstatic = 179 
     ret = 169 
-    _return = 177 
+    return_ = 177 
     saload = 53 
     sastore = 86 
     sipush = 17 
